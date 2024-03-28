@@ -17,6 +17,7 @@ import tailwindcss from "../assets/logos/tailwindcss.svg";
 import blogCafe from "../assets/projects/blog-cafe.png";
 import festivalmusicaImage from "../assets/projects/festival-musica.png";
 import frontendstoreImage from "../assets/projects/frontend-store.png";
+import refugioCaninoImage from "../assets/projects/refugiocanino.png"
 import errorImage from "../assets/images/404-vector.svg";
 import successImage from "../assets/images/success-vector.svg"
 
@@ -40,6 +41,7 @@ export default {
     blogCafe,
     festivalmusicaImage,
     frontendstoreImage,
+    refugioCaninoImage,
     errorImage,
     successImage
 }

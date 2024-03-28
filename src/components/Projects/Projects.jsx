@@ -38,6 +38,20 @@ const projects = [
         // tecnologias usadas
         html: true,
         css: true
+    },
+    {
+        id: 4,
+        image: images.refugioCaninoImage,
+        heading: "Refugio Canino",
+        description: "<p>Proyecto individual perteneciente a la carrera Desarrollo web full stack de SoyHenry, en el cual tuve que desarrollar una SPA. En la misma se puede ver informacion y cards de razas de perros, un paginado el cual muestra 8 razas por pagina. Ademas de el ordenamiento por peso y nombre. El filtrado por temperamentos. Tambien se puede crear una raza nueva, editarla y eliminarla.</p>",
+        githubLink: "https://github.com/maximartinatto/PI-DOGS",
+        // tecnologias usadas
+        nodejs: true,
+        express: true,
+        postgresql: true,
+        reactjs: true,
+        html: true,
+        css: true
     }
 ]
 
@@ -148,6 +162,50 @@ const Card = () => {
                                             className="h-8 object-contain dark:filter dark:invert"
                                             src={images.javascript}
                                             alt="javascript logo"
+                                            width={32}
+                                            height={32}
+                                        />
+                                    </div>
+                                )}
+                                {proj.nodejs && (
+                                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                                        <img
+                                            className="h-8 object-contain dark:filter dark:invert"
+                                            src={images.nodejs}
+                                            alt="nodejs logo"
+                                            width={32}
+                                            height={32}
+                                        />
+                                    </div>
+                                )}
+                                {proj.express && (
+                                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                                        <img
+                                            className="h-8 object-contain dark:filter dark:invert"
+                                            src={images.express}
+                                            alt="express logo"
+                                            width={32}
+                                            height={32}
+                                        />
+                                    </div>
+                                )}
+                                {proj.postgresql && (
+                                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                                        <img
+                                            className="h-8 object-contain dark:filter dark:invert"
+                                            src={images.postgresql}
+                                            alt="postgresql logo"
+                                            width={32}
+                                            height={32}
+                                        />
+                                    </div>
+                                )}
+                                {proj.react && (
+                                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                                        <img
+                                            className="h-8 object-contain dark:filter dark:invert"
+                                            src={images.reactjs}
+                                            alt="react logo"
                                             width={32}
                                             height={32}
                                         />
